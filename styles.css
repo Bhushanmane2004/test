@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  left: 0;
+  top: 0;
+  padding: 10px 100px 10px 100px;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  background-color: rgb(57, 63, 67);
+}
+input {
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  height: 50px;
+  width: 500px;
+
+  background-color: rgb(179, 177, 177);
+}
+::placeholde {
+  color: rgb(234, 230, 230);
+}
+
+nav {
+  display: flex;
+}
+li {
+  margin: 20px;
+  list-style: none;
+}
+a {
+  color: #b3c6b3;
+  text-decoration: none;
+}
+.button {
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 80px;
+  background-color: #79b079;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #5c975c;
+}
+.parent {
+  display: flex;
+  align-items: center;
+  background-color: #dddddd;
+  flex-direction: column;
+}
+.child {
+  margin: auto;
+  margin-top: 30px;
+  flex-direction: column;
+  width: 80%;
+  height: 60%;
+  border-radius: 10px;
+  background-color: rgb(179, 177, 177);
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 40px;
+}
+.inner-div {
+  margin: auto;
+  height: 90%;
+  width: 45%;
+}
+.imgdiv {
+  margin-bottom: -44px;
+}
+.human-img {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  margin: 20px;
+  text-align: left;
+}
+.highlight {
+  margin: 10px;
+  color: black;
+}
+.greentick {
+  height: 15px;
+}
+.input-2 {
+  margin-top: 20px;
+  background-color: white;
+}
+.input-2 ::placeholder {
+  color: black;
+}
+h2 {
+  margin: 20px;
+  text-align: left;
+}
+.logo-mobile {
+  height: 70px;
+  background-color: white;
+  border-radius: 20px;
+}
+.mobile-brand a {
+  margin: 10px;
+}
+footer {
+  height: 300px;
+  width: 100%;
+  background-color: rgb(179, 177, 177);
+  display: flex;
+}
+.footer-child {
+  margin: auto;
+  height: 100%;
+  width: 15%;
+  display: flex;
+}
+h3 {
+  margin: 20px;
+  margin-left: 0;
+}
+.footer-child ul a {
+  color: rgb(95, 91, 91);
+  font-size: 15px;
+}
+.footer-child ul li {
+  margin-left: 0;
+  left: 0;
+  text-align: left;
+}
+.footerfirst {
+  margin-left: 80px;
+}
+.footer-id {
+  width: 30%;
+  margin-left: 40px;
+}
+.footer-id a {
+  margin: 10px;
+  margin-top: 20px;
+}
+.footer-id p {
+  margin-top: 10px;
+  font-size: 12px;
+}
+h5 {
+  margin-top: 15px;
+}
+hr {
+  background-color: black;
+  height: 2px;
+  margin: 30px 0;
+}
+.childinfo {
+  margin: auto;
+  height: 400px;
+  width: 80%;
+  display: flexbox;
+  flex-direction: row;
+}
+.childinfo h1 {
+  margin: 30px 0;
+}
+.childinfo div {
+  height: 70%;
+  display: flex;
+}
+.childinfo div div {
+  margin: auto;
+  height: 90%;
+  width: 25%;
+  text-align: center;
+  justify-content: center;
+}
+.childinfo div div img {
+  height: 100px;
+  width: 100px;
+}
+.steps {
+  color: black;
+}
+.stepsinfo {
+  text-align: center;
+  color: rgb(57, 63, 67);
+}
